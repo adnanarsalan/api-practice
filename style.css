@@ -1,0 +1,62 @@
+
+
+body {
+ background: black;
+
+}
+.fullButton {
+               text-align: center;
+
+            
+                 align-items: center;
+
+}
+.dogButton {
+
+      border-radius: 50%;         
+      width:100px;
+      height:100px;
+      background-color:antiquewhite;
+      border-style: double;
+      box-shadow: 5px 7px 2px 1px rgba(0, 0, 255, .2);
+      
+      
+      
+      
+}
+#img02 {
+
+width:70px;
+height: 70px ;
+clip-path: circle();
+
+}
+H1 {
+
+               color:aliceblue
+
+}
+.dogColor {
+
+color:bisque
+
+
+}
+.dogColor01 {
+
+      color: white
+      
+      
+      }
+
+     h4 {
+
+            color: blue ;
+            border: 1px solid white ;
+            text-align: center;
+            background-color: brown;
+
+            
+            
+            
+            }

@@ -9,28 +9,15 @@
                <link rel="stylesheet" href="style.css">
 
 </head>
-<body class="bg-danger">
-               <h2 class="text-center  text-white ">Meet-UR-Phone</h2>
-               <div class="input-group mb-3 w-50 mx-auto">
-                              <input id="search-field" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-                              <button onclick="searchPhone()" class="btn btn-outline-golden bg-info" type="button" id="button-search">SEARCH PHONE</button>
-                            </div>
+<body>
+   <div class="fullButton">
+     <h1>DOG SEARCH</h1>
+    
+  <button class="dogButton" onclick="loadData()"><img id="img02" onmouseover="pic()" onmouseout="pic2()" src="image/dog.jpg" alt=""></button>
+  
+</div> 
 
-
-                            <div class="container">               
-                              <div class="row" id="details">          
-                               
-                              </div>       
-                              
-                          </div>
-
-             <!-- three-column-card -->
-            <div class="container">               
-                <div class="row" id="search-result">          
-                  
-                </div>       
-                
-            </div>
+<div id="main"  class="row"></div>
          
              <script src="script.js">
                
